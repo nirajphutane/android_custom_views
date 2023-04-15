@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="btn_label_color" format="reference|color" />
+    <attr name="ideal_btn_bg_color" format="reference|color" />
+    <attr name="pressed_btn_bg_color" format="reference|color" />
+</resources>
