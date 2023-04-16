@@ -3,4 +3,9 @@
     <attr name="btn_label_color" format="reference|color" />
     <attr name="ideal_btn_bg_color" format="reference|color" />
     <attr name="pressed_btn_bg_color" format="reference|color" />
+
+    <declare-styleable name="QuickActionView">
+        <attr format="string" name="label"/>
+        <attr format="reference" name="src"/>
+    </declare-styleable>
 </resources>

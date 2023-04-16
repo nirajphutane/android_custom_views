@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ComponentsActivity"
     android:gravity="center">
 
-    <include
+    <com.np.mycustomviews.quick_action_view.QuickActionView
+        android:id="@+id/quickAction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        layout="@layout/quick_action"/>
+        app:label="More Option" />
 
 </LinearLayout>
