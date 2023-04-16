@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed -->
     <item android:state_pressed="true"
-        android:drawable="@drawable/light_pressed_btn_bg"/> <!-- pressed -->
+        android:drawable="@drawable/pressed_btn_bg"/>
+    <!-- default -->
     <item
-        android:drawable="@drawable/light_ideal_btn_bg"/> <!-- default -->
+        android:drawable="@drawable/ideal_btn_bg"/>
 </selector>
