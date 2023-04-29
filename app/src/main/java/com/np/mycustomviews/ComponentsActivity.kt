@@ -11,12 +11,5 @@ class ComponentsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_components)
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-
-        val quickActionView = findViewById<QuickActionView>(R.id.quickAction)
-        quickActionView.label = "Niraj"
-
-        quickActionView.setOnClickListener {
-            Toast.makeText(this, "OnClick!", Toast.LENGTH_LONG).show()
-        }
     }
 }

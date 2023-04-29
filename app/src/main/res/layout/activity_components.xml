@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ComponentsActivity"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <com.np.mycustomviews.quick_action_view.QuickActionView
-        android:id="@+id/quickAction"
+    <com.np.mycustomviews.segment_controller.SingleSegment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:label="More Option" />
+        app:SingleSegmentLabel="Niraj Phutane"/>
+
+    <com.np.mycustomviews.segment_controller.SegmentController
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.np.mycustomviews.segment_controller.SingleSegment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:SingleSegmentLabel="Phutane"/>
+
+        <com.np.mycustomviews.segment_controller.Segment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_arrow"
+            android:text="Button-2"/>
+
+
+    </com.np.mycustomviews.segment_controller.SegmentController>
 
 </LinearLayout>

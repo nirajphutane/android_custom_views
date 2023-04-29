@@ -8,4 +8,12 @@
         <attr format="string" name="label"/>
         <attr format="reference" name="src"/>
     </declare-styleable>
+
+    <declare-styleable name="Segment">
+        <attr format="string" name="segmentLabel"/>
+    </declare-styleable>
+
+    <declare-styleable name="SingleSegment">
+        <attr format="string" name="SingleSegmentLabel"/>
+    </declare-styleable>
 </resources>
